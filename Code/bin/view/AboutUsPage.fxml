@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutUsPageController">
+   <children>
+      <ImageView fx:id="aboutUsImg" fitHeight="150.0" fitWidth="600.0" layoutY="47.0" opacity="0.42" pickOnBounds="true">
+         <image>
+            <Image url="@../../res/images/AboutUs.jpg" />
+         </image>
+      </ImageView>
+      <Label ellipsisString="" layoutX="86.0" layoutY="79.0" text="Flavors of India" textFill="#8d2119">
+         <font>
+            <Font name="Comic Sans MS" size="50.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="homeLink" layoutX="17.0" layoutY="14.0" onAction="#homeLinkAction" text="Home">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Hyperlink>
+      <Label layoutX="10.0" layoutY="224.0" prefHeight="36.0" prefWidth="100.0" text="Abstract" textFill="#3e484a">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Label>
+      <Line endX="474.6666259765625" endY="-5.9999847412109375" layoutX="110.0" layoutY="263.0" opacity="0.21" startX="-100.0" stroke="#322c2c" />
+      <Label layoutX="12.0" layoutY="276.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="184.0" prefWidth="576.0" text="Our mission is to bring the rich flavors of Indian snacks to your doorstep, with a strong emphasis on exceptional customer service and a unwavering dedication to delivering high-quality and consistent products.Whether you are craving savory chaat or sweet mithai, we are dedicated to providing you with a satisfying and delicious snacking experience that you can enjoy from the comfort of your own home." wrapText="true">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="adminLoginLink" layoutX="310.0" layoutY="14.0" onAction="#adminLoginLinkAction" text="Admin Login">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="contactUsLink" layoutX="185.0" layoutY="14.0" onAction="#contactUsLinkAction" text="Contact Us">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="ctrLoginLink1" layoutX="441.0" layoutY="14.0" onAction="#ctrLoginLinkAction" text="Customer Login">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink fx:id="menuLink" layoutX="97.0" layoutY="14.0" onAction="#menuLinkAction" text="Menu">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Hyperlink>
+   </children>
+</AnchorPane>
